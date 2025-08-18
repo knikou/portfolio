@@ -9,7 +9,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
-    }, // <-- Add this closing brace
+    },
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -22,7 +22,6 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": ".",
     "plugins": [
       {
         "name": "next"

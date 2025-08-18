@@ -21,11 +21,12 @@ export default function Portfolio() {
       {/* Hero */}
       <section className="flex flex-col items-center justify-center h-[70vh] text-center">
         <motion.h2
-          className="text-4xl md:text-6xl font-bold mb-4"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
         >
-          Engineer • IT Manager • Project Manager
+          <span className="text-4xl md:text-6xl font-bold mb-4">
+            Engineer • IT Manager • Project Manager
+          </span>
         </motion.h2>
         <p className="text-lg text-gray-600 max-w-2xl">
           Helping organizations improve efficiency with IT, project management, and engineering innovation.
