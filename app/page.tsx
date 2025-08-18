@@ -29,7 +29,7 @@ export default function Portfolio() {
           </span>
         </motion.h2>
         <p className="text-lg text-gray-600 max-w-2xl">
-          Helping organizations achieve efficiency and growth through technology, project leadership, and digital transformation
+          Professional Project Manager, Engineer, MBA and MSc holder, PMP® Certified. Extensive experience in Consulting, Digital & Finance Transformation across multiple sectors. Proven track record in delivering large-scale SAP, ERP, and Logistics projects with strong technical and managerial expertise.
         </p>
         <Button className="mt-6">Download CV</Button>
       </section>
@@ -38,14 +38,7 @@ export default function Portfolio() {
       <section id="about" className="p-10 bg-gray-50">
         <h3 className="text-3xl font-bold mb-4">About Me</h3>
         <p className="max-w-3xl text-gray-700">
-          I am a Professional Project Manager, Engineer, and MBA & MSc holder, PMP® Certified, 
-          with strong expertise in consulting, digital transformation, and finance transformation 
-          across industries including logistics, banking, telecoms, retail, and the public sector, as well as in M&As.
-          I have successfully delivered diverse projects, such as a large-scale SAP transformation in telecoms 
-          and an e-commerce logistics project in retail. Skilled in MS software, scripting/coding, and SAP, 
-          I combine technical, managerial, and strategic thinking to achieve results.
-          Recognized as a positive, agile team player, I thrive on continuous learning, improvement, and enabling growth.
-          Feel free to contact me at kostas.nikou@gmail.com.
+          I am a PMP® Certified Project Manager and Engineer with an MBA and MSc, experienced in Consulting, Digital and Finance Transformation, and IT Management. I have delivered successful projects in Logistics, Banking, Telecoms, Retail, and Public Sectors, including M&As. I combine technical knowledge with leadership and strategic thinking to achieve impactful results.
         </p>
       </section>
 
@@ -53,21 +46,24 @@ export default function Portfolio() {
       <section id="skills" className="p-10">
         <h3 className="text-3xl font-bold mb-6">Skills</h3>
         <div className="grid md:grid-cols-3 gap-6">
-          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">Project Management & Leadership</h4><p>PMP, Agile/Scrum, MS Project, Jira</p></CardContent></Card>
-          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">IT & Digital Tools</h4><p>Microsoft 365, Azure, Cloud, Security</p></CardContent></Card>
-          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">Programming & Data</h4><p>Python, SQL, VBA, PowerShell</p></CardContent></Card>
-          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">Industries Experience</h4><p>Telecoms, Banking, Retail, Logistics, Public Sector</p></CardContent></Card>
-          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">Personal & Professional Skills</h4><p>Strategic Thinking & Problem-Solving</p></CardContent></Card>
+          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">Project Management</h4><p>PMP®, Agile/Scrum, PMO, MS Project, Jira</p></CardContent></Card>
+          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">Consulting & Transformation</h4><p>Finance Transformation, Digital Transformation, M&As, Supply Chain Strategy</p></CardContent></Card>
+          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">ERP & Systems</h4><p>SAP (Activate, BPC, BW, MM), Microsoft Dynamics 365, WMS, TMS, CRM</p></CardContent></Card>
+          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">Programming & Data</h4><p>Python, SQL, C#, JavaScript, HTML/CSS, Power BI, VBA, AutoCAD</p></CardContent></Card>
+          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">Soft Skills</h4><p>Leadership, Negotiation, Strategic Thinking, Team Facilitation</p></CardContent></Card>
         </div>
       </section>
 
       {/* Projects */}
       <section id="projects" className="p-10 bg-gray-50">
         <h3 className="text-3xl font-bold mb-6">Projects</h3>
-        <div className="grid md:grid-cols-3 gap-6">
-          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">Project A</h4><p>Short description + results</p></CardContent></Card>
-          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">Project B</h4><p>Short description + results</p></CardContent></Card>
-          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">Project C</h4><p>Short description + results</p></CardContent></Card>
+        <div className="grid md:grid-cols-2 gap-6">
+          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">PwC – Finance Transformation</h4><p>SAP PMO, merger of banking entities through absorption (2024–Today).</p></CardContent></Card>
+          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">Makios Logistics – Digital Transformation</h4><p>ERP Dynamics 365, WMS SQL migration, Power BI rollout, TMS/Fleet Management, CRM implementation (2022–2024).</p></CardContent></Card>
+          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">Alpha Bank – IT Projects</h4><p>Bankassurance Platform, Loans Reconciliation (TIRESIAS), Credit Card Data Migration (2020–2022).</p></CardContent></Card>
+          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">AB Vassilopoulos – PMO</h4><p>E-commerce Distribution Centre, new WMS, Supply Chain redesign, cultural transformation (2018–2020).</p></CardContent></Card>
+          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">Real Consulting – SAP Consultant</h4><p>SAP IFRS15 for Telecom, SAP BPC for Construction (2015–2018).</p></CardContent></Card>
+          <Card><CardContent className="p-4"><h4 className="font-semibold mb-2">KPMG Advisors – Consulting</h4><p>Business Process Reengineering, Public Sector advisory, Supply Chain projects (2007–2015).</p></CardContent></Card>
         </div>
       </section>
 
