@@ -118,12 +118,12 @@ export default function Portfolio() {
         <h3 className="text-3xl font-bold mb-6 text-blue-700">Projects</h3>
         <div className="grid md:grid-cols-2 gap-6">
           {/* ... same project cards, maybe add hover effect */}
-          <Card className="hover:shadow-lg transition"><CardContent className="p-4"><h4 className="font-semibold mb-2 text-indigo-700">PwC – Finance Transformation</h4><p>SAP PMO, M&As (2024–Today).</p></CardContent></Card>
-          <Card className="hover:shadow-lg transition"><CardContent className="p-4"><h4 className="font-semibold mb-2 text-indigo-700">Makios Logistics – Digital Transformation</h4><p>Microsoft Dynamics 365, WMS SQL migration, Power BI rollout, TMS/Fleet Management, CRM implementation (2022–2024).</p></CardContent></Card>
-          <Card className="hover:shadow-lg transition"><CardContent className="p-4"><h4 className="font-semibold mb-2 text-indigo-700">Alpha Bank – IT Projects</h4><p>Bankassurance Platform, Loans Reconciliation (TIRESIAS), Credit Card Data Migration (2020–2022).</p></CardContent></Card>
-          <Card className="hover:shadow-lg transition"><CardContent className="p-4"><h4 className="font-semibold mb-2 text-indigo-700">AB Vassilopoulos – PMO</h4><p>E-commerce Distribution Centre, new WMS, Supply Chain redesign, cultural transformation (2018–2020).</p></CardContent></Card>
-          <Card className="hover:shadow-lg transition"><CardContent className="p-4"><h4 className="font-semibold mb-2 text-indigo-700">Real Consulting – SAP Consultant</h4><p>SAP IFRS15 for Telecom, SAP BPC for Construction (2015–2018).</p></CardContent></Card>
-          <Card className="hover:shadow-lg transition"><CardContent className="p-4"><h4 className="font-semibold mb-2 text-indigo-700">KPMG Advisors – Consulting</h4><p>Business Process Reengineering, Public Sector advisory (2007–2015).</p></CardContent></Card>
+          <div className="hover:shadow-lg transition"><Card><CardContent className="p-4"><h4 className="font-semibold mb-2 text-indigo-700">PwC – Finance Transformation</h4><p>SAP PMO, M&As (2024–Today).</p></CardContent></Card></div>
+          <div className="hover:shadow-lg transition"><Card><CardContent className="p-4"><h4 className="font-semibold mb-2 text-indigo-700">Makios Logistics – Digital Transformation</h4><p>Microsoft Dynamics 365, WMS SQL migration, Power BI rollout, TMS/Fleet Management, CRM implementation (2022–2024).</p></CardContent></Card></div>
+          <div className="hover:shadow-lg transition"><Card><CardContent className="p-4"><h4 className="font-semibold mb-2 text-indigo-700">Alpha Bank – IT Projects</h4><p>Bankassurance Platform, Loans Reconciliation (TIRESIAS), Credit Card Data Migration (2020–2022).</p></CardContent></Card></div>
+          <div className="hover:shadow-lg transition"><Card><CardContent className="p-4"><h4 className="font-semibold mb-2 text-indigo-700">AB Vassilopoulos – PMO</h4><p>E-commerce Distribution Centre, new WMS, Supply Chain redesign, cultural transformation (2018–2020).</p></CardContent></Card></div>
+          <div className="hover:shadow-lg transition"><Card><CardContent className="p-4"><h4 className="font-semibold mb-2 text-indigo-700">Real Consulting – SAP Consultant</h4><p>SAP IFRS15 for Telecom, SAP BPC for Construction (2015–2018).</p></CardContent></Card></div>
+          <div className="hover:shadow-lg transition"><Card><CardContent className="p-4"><h4 className="font-semibold mb-2 text-indigo-700">KPMG Advisors – Consulting</h4><p>Business Process Reengineering, Public Sector advisory (2007–2015).</p></CardContent></Card></div>
         </div>
       </section>
 
