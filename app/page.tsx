@@ -70,36 +70,46 @@ export default function Portfolio() {
       <section id="skills" className="p-10 bg-gradient-to-r from-indigo-50 to-blue-50">
         <h3 className="text-3xl font-bold mb-6 text-indigo-700">Skills</h3>
         <div className="grid md:grid-cols-3 gap-6">
-          <Card className="shadow-md hover:shadow-lg transition">
-            <CardContent className="p-4">
-              <h4 className="font-semibold mb-2 text-blue-700">Project Management</h4>
-              <p>PMP®, Agile/Scrum, PMO, MS Project, Monday</p>
-            </CardContent>
-          </Card>
-          <Card className="shadow-md hover:shadow-lg transition">
-            <CardContent className="p-4">
-              <h4 className="font-semibold mb-2 text-blue-700">Consulting & Transformation</h4>
-              <p>Digital & Finance Transformation, M&As, Supply Chain Strategy</p>
-            </CardContent>
-          </Card>
-          <Card className="shadow-md hover:shadow-lg transition">
-            <CardContent className="p-4">
-              <h4 className="font-semibold mb-2 text-blue-700">ERP & Systems</h4>
-              <p>SAP, Microsoft Dynamics 365, WMS, TMS, CRM</p>
-            </CardContent>
-          </Card>
-          <Card className="shadow-md hover:shadow-lg transition">
-            <CardContent className="p-4">
-              <h4 className="font-semibold mb-2 text-blue-700">Programming & Data</h4>
-              <p>Python, SQL, JavaScript, HTML/CSS, Power BI, VBA, AutoCAD</p>
-            </CardContent>
-          </Card>
-          <Card className="shadow-md hover:shadow-lg transition">
-            <CardContent className="p-4">
-              <h4 className="font-semibold mb-2 text-blue-700">Soft Skills</h4>
-              <p>Leadership, Negotiations (Scotworks), Strategic Thinking, Team Facilitation</p>
-            </CardContent>
-          </Card>
+          <div className="shadow-md hover:shadow-lg transition">
+            <Card>
+              <CardContent className="p-4">
+                <h4 className="font-semibold mb-2 text-blue-700">Project Management</h4>
+                <p>PMP®, Agile/Scrum, PMO, MS Project, Monday</p>
+              </CardContent>
+            </Card>
+          </div>
+          <div className="shadow-md hover:shadow-lg transition">
+            <Card>
+              <CardContent className="p-4">
+                <h4 className="font-semibold mb-2 text-blue-700">Consulting & Transformation</h4>
+                <p>Digital & Finance Transformation, M&As, Supply Chain Strategy</p>
+              </CardContent>
+            </Card>
+          </div>
+          <div className="shadow-md hover:shadow-lg transition">
+            <Card>
+              <CardContent className="p-4">
+                <h4 className="font-semibold mb-2 text-blue-700">ERP & Systems</h4>
+                <p>SAP, Microsoft Dynamics 365, WMS, TMS, CRM</p>
+              </CardContent>
+            </Card>
+          </div>
+          <div className="shadow-md hover:shadow-lg transition">
+            <Card>
+              <CardContent className="p-4">
+                <h4 className="font-semibold mb-2 text-blue-700">Programming & Data</h4>
+                <p>Python, SQL, JavaScript, HTML/CSS, Power BI, VBA, AutoCAD</p>
+              </CardContent>
+            </Card>
+          </div>
+          <div className="shadow-md hover:shadow-lg transition">
+            <Card>
+              <CardContent className="p-4">
+                <h4 className="font-semibold mb-2 text-blue-700">Soft Skills</h4>
+                <p>Leadership, Negotiations (Scotworks), Strategic Thinking, Team Facilitation</p>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </section>
 
