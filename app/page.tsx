@@ -131,12 +131,11 @@ export default function Portfolio() {
       <section id="contact" className="p-10 text-center bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
         <h3 className="text-3xl font-bold mb-4">Get in Touch</h3>
         <p className="mb-4">Email: <a href="mailto:kostas.nikou@gmail.com" className="underline">kostas.nikou@gmail.com</a></p>
-        <Button asChild className="bg-white text-[#0A66C2] hover:bg-gray-100 px-6 py-3 rounded-xl shadow-md">
+        <Button asChild className="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-xl shadow-md">
   <a href="https://www.linkedin.com/in/knikou/" target="_blank" rel="noopener noreferrer">
     Connect on LinkedIn
   </a>
 </Button>
-
       </section>
 
       {/* Footer */}
